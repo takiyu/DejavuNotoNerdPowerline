@@ -1,0 +1,48 @@
+#!/usr/bin/fontforge
+
+Open("./src/DejaVuSansMono.ttf")
+SelectAll()
+ScaleToEm(2048)
+Generate("./tmp/_dejavu.ttf")
+Close()
+
+Open("./src/NotoSansCJKjp-Regular.ttf")
+SelectAll()
+ScaleToEm(2048)
+Generate("./tmp/_noto.ttf")
+Close()
+
+Open("./src/Hack Regular Nerd Font Complete Mono Windows Compatible.ttf")
+SelectAll()
+ScaleToEm(2048)
+Generate("./tmp/_nerd.ttf")
+Close()
+
+Open("./src/Noto Mono for Powerline.ttf")
+SelectAll()
+ScaleToEm(2048)
+Generate("./tmp/_noto_poweline.ttf")
+Close()
+
+Open("./src/iconsfordevs.ttf")
+SelectAll()
+ScaleToEm(2048)
+Generate("./tmp/_iconsfordevs.ttf")
+Close()
+
+# Open("./src/NotoColorEmoji_WindowsCompatible.ttf")
+## Open("./src/NotoEmoji-Regular.ttf")
+# SelectAll()
+# ScaleToEm(2048)
+# Generate("./tmp/_noto_emoji.ttf")
+# Close()
+
+Open("./tmp/_dejavu.ttf")
+SetFontNames("DejavuNotoNerdPowerline", "DejavuNotoNerdPowerline", "DejavuNotoNerdPowerline")
+MergeFonts("./tmp/_iconsfordevs.ttf")
+MergeFonts("./tmp/_nerd.ttf")
+MergeFonts("./tmp/_noto_poweline.ttf")
+MergeFonts("./tmp/_noto.ttf")
+# MergeFonts("./tmp/_noto_emoji.ttf")
+Generate("DejavuNotoNerdPowerline.ttf")
+Close()
