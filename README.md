@@ -8,4 +8,4 @@
 - Icons for Devs
 
 ## TODO
-[ ] Emoji
+- [ ] Emoji
