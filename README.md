@@ -1,7 +1,7 @@
 # DejavuNotoNerdPowerline
 
-![image](https://user-images.githubusercontent.com/8927943/145054406-54ce8cfd-cc2b-421b-a4f7-bbd8a865c648.png)
-![image](https://user-images.githubusercontent.com/8927943/145059867-176f201d-cf44-4320-9fcd-81e55432afb3.png)
+![image](https://user-images.githubusercontent.com/8927943/145309560-b7679127-af96-43ad-aa59-a7b178e3b3b8.png)
+![image](https://user-images.githubusercontent.com/8927943/145309576-f7b8c4a7-9a7a-4d8f-a073-7ae2c7779c63.png)
 
 ## Source fonts
 - DejaVu Sans Mono
